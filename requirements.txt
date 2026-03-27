@@ -1,0 +1,4 @@
+# WizardAI - Core requirements (minimal install)
+# Install full features with: pip install wizardai[all]
+
+requests>=2.28.0
