@@ -19,7 +19,7 @@ if init_path.exists():
             break
 
 setup(
-    name="wizardai-sdk",
+    name="wizardenv",
     version=version,
     author="WizardAI Contributors",
     author_email="hello@wizardai.dev",
@@ -29,11 +29,11 @@ setup(
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/VIkasPatel22/wizardai-sdk",
+    url="https://github.com/VIkasPatel22/wizardenv",
     project_urls={
-        "Bug Tracker": "https://github.com/VIkasPatel22/wizardai-sdk/issues",
-        "Documentation": "https://github.com/VIkasPatel22/wizardai-sdk#readme",
-        "Source": "https://github.com/VIkasPatel22/wizardai-sdk",
+        "Bug Tracker": "https://github.com/VIkasPatel22/wizardenv/issues",
+        "Documentation": "https://github.com/VIkasPatel22/wizardenv#readme",
+        "Source": "https://github.com/VIkasPatel22/wizardenv",
     },
     packages=find_packages(exclude=["tests*", "examples*", "docs*"]),
     classifiers=[
