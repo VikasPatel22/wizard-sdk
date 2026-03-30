@@ -1,6 +1,6 @@
 # 🧙 WizardEnv — Complete Documentation
 
-[![Version](https://img.shields.io/badge/version-2.1.0-blue?style=flat-square)](https://pypi.org/project/wizardai-sdk/)
+[![Version](https://img.shields.io/badge/version-2.1.1-blue?style=flat-square)](https://pypi.org/project/wizardai-sdk/)
 [![Python](https://img.shields.io/badge/python-3.9%2B-brightgreen?style=flat-square&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)](LICENSE)
 [![PyPI](https://img.shields.io/badge/pip_install-wizardai--sdk-purple?style=flat-square)](https://pypi.org/project/wizardai-sdk/)
@@ -442,7 +442,7 @@ print(agent.respond("my name is Bob"))    # → "Nice to meet you, Bob!"
 # Bulk load from dict
 agent.load_patterns_from_dict({
     "ping": "pong",
-    "what version": "WizardAI v2.1.0",
+    "what version": "WizardAI v2.1.1",
 })
 
 # Load from JSON file
@@ -637,7 +637,7 @@ from typing import Optional
 class WeatherPlugin(PluginBase):
     name        = "weather"
     description = "Returns weather for a city."
-    version     = "2.1.0"
+    version     = "2.1.1"
     author      = "You"
     triggers    = ["weather in *"]
 
@@ -1008,7 +1008,7 @@ from wizardai import PluginBase
 
 class CryptoPlugin(PluginBase):
     name    = "crypto"
-    version = "2.1.0"
+    version = "2.1.1"
     triggers = ["price of *", "* price"]
 
     def on_message(self, text, context):
@@ -1059,7 +1059,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "wizardai-sdk"
-version         = "2.1.0"
+version         = "2.1.1"
 description     = "All-in-one AI SDK powered by Sagittarius Labs"
 readme          = "README.md"
 license         = { text = "MIT" }
@@ -1135,7 +1135,7 @@ Go to [https://pypi.org/manage/account/publishing/](https://pypi.org/manage/acco
 
 ### Create a release and publish
 
-1. Push a tag: `git tag v2.1.0 && git push --tags`
+1. Push a tag: `git tag v2.1.1 && git push --tags`
 2. Create a GitHub Release from the tag
 3. The workflow publishes to PyPI automatically
 
@@ -1189,4 +1189,4 @@ WITHOUT WARRANTY OF ANY KIND.
 
 ---
 
-*WizardEnv v2.1.0 — Powered by [Sagittarius Labs](https://sagittarius-labs.pages.dev/)*
+*WizardEnv v2.1.1 — Powered by [Sagittarius Labs](https://sagittarius-labs.pages.dev/)*
