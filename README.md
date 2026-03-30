@@ -1,4 +1,4 @@
-# 🧙 WizardAI SDK — Complete Documentation
+# 🧙 WizardEnv — Complete Documentation
 
 [![Version](https://img.shields.io/badge/version-1.1.0-blue?style=flat-square)](https://pypi.org/project/wizardai-sdk/)
 [![Python](https://img.shields.io/badge/python-3.9%2B-brightgreen?style=flat-square&logo=python)](https://python.org)
@@ -1189,4 +1189,4 @@ WITHOUT WARRANTY OF ANY KIND.
 
 ---
 
-*WizardAI SDK v1.1.0 — Powered by [Sagittarius Labs](https://sagittarius-labs.pages.dev/)*
+*WizardEnv v1.1.0 — Powered by [Sagittarius Labs](https://sagittarius-labs.pages.dev/)*
